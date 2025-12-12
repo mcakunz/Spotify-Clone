@@ -22,9 +22,9 @@ export const revalidate = 0;
 
 export default async function RootLayout({
   children,
-}: Readonly<{
+}: { 
   children: React.ReactNode;
-}>) {
+}) {
   const userSongs = await getSongsByUserId();
   return (
     <html lang="en">

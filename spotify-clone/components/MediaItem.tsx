@@ -42,8 +42,8 @@ const MediaItem: React.FC<MediaItemProps> = ({
               className="
                 relative
                 rounded-md
-                min-h-12
-                min-w-12
+                h-12
+                w-12
                 overflow-hidden
               "
             >
